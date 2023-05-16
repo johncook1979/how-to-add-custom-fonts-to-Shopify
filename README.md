@@ -11,6 +11,6 @@ Next, click on the font you just uploaded and copy the URL to your clipboard
 
 Next, in the custom CSS of the theme or the themes custom css file, enter the @fontface as shown in the css file. Notice how the url is no longer src: url("{{ '[font-file-name]' | file_url }}") format("[font-format]"); and is now url('https://cdn.shopify.com/s/files/1/0754/1040/7731/files/font-file-name') format('font-format')? This gives the full direct URL for the browser to download the font without creating an error.
 
-See the css file for an example and customise it using your own font name and URL to fonts. Ensure you upload at lease a woff and woff2 file
+See the css file for an example and customise it using your own font name and URL to fonts. Ensure you upload at lease a woff and woff2 file and replace font-name with the file name of the font (case sensitive) and the "Your font name" with your own unique name.
 
 
